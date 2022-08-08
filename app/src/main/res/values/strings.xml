@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">BankApp</string>
+    <string name="Sign_In">Sign In</string>
+    <string name="forgot_Username">Forgot username?</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="Home">Home</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Fingerprint">Fingerprint</string>
+    <string name="Find_Us">Find Us</string>
+    <string name="Get_Help">Get Help</string>
+    <string name="logoHead">Login</string>
+    <string name="Account_no">Account Number</string>
+    <string name="continueBtn">Continue</string>
+    <string name="R00Header">Retrieve Username</string>
+    <string name="R1">Enter Account Number</string>
+    <string name="R2">Enter Last 4 digit of Card Number</string>
+    <string name="R3">Enter CVV (3 Number at the back of your card)</string>
+    <string name="R4">Card PIN</string>
+    <string name="R5">Don\'t have a debit Card?</string>
+    <string name="R6">Please visit the nearest branch</string>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--this changes the filled colour of the MDC Filled EditText-->
+        <!--this also changes the color of the hint font and helper text too-->
+        <item name="colorOnSurface">@color/colorPrimaryDark</item>
+
+        <!--this customizes the hint font of the EditText-->
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.App.Subtitle1</item>
+
+        <!--this changes the helper text font-->
+        <item name="textAppearanceCaption">@style/TextAppearance.App.Caption</item>
+
+        <!--this is to change the shape of the MDC EditText-->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+
+    </style>
+
+    <style name="TextAppearance.App.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <!--this changes the font face of the hint text-->
+        <item name="fontFamily">sans-serif-condensed</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="TextAppearance.App.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <!--this changes the font face of the helper text-->
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <!--this makes the 10 dp of cut corners of the MDC EditText-->
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyApp.Button.Rounded
+        </item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
